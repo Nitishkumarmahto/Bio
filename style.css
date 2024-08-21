@@ -11,7 +11,8 @@ body{
   flex-direction: column;
   width: 100%;
   min-height: 1vh;
-  background-color: #606e91;
+  /* background-color: #606e91; */
+  background:content-box radial-gradient(rgb(145, 184, 243), skyblue);
 
 }
 .background{
@@ -87,7 +88,7 @@ P{
     line-height: 2rem;
     border-radius: 50%;
     /* color: #ffffff; */
-    transition: all 0.5s ease;
+    transition: all 0.5s ease-in-out;
 }
 
 .contact a:hover{
@@ -105,7 +106,7 @@ P{
     justify-content: center;
     text-align: center;
     position: relative;
-  
+
   }
 
   .sections a{
